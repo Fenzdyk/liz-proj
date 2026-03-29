@@ -1,7 +1,7 @@
 <header class="border-bottom bg-white shadow-sm sticky-top">
   <nav class="navbar navbar-expand-lg navbar-light container">
-    <a class="navbar-brand d-flex align-items-center py-0" href="/" aria-label="На главную">
-      <img class="header-logo" src="/static/icons/Logo.svg" alt="Логотип" decoding="async" />
+    <a class="navbar-brand d-flex align-items-center py-0" href="{{siteBase}}" aria-label="На главную">
+      <img class="header-logo" src="{{siteBase}}static/icons/Logo.svg" alt="Логотип" decoding="async" />
     </a>
     <button
       class="navbar-toggler"
@@ -17,19 +17,19 @@
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="/studio.html">О студии</a>
+          <a class="nav-link" href="{{siteBase}}studio.html">О студии</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/master-classes.html">Мастер-классы</a>
+          <a class="nav-link" href="{{siteBase}}master-classes.html">Мастер-классы</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/subscriptions.html">Абонементы</a>
+          <a class="nav-link" href="{{siteBase}}subscriptions.html">Абонементы</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/holidays.html">Праздники</a>
+          <a class="nav-link" href="{{siteBase}}holidays.html">Праздники</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts.html">Контакты</a>
+          <a class="nav-link" href="{{siteBase}}contacts.html">Контакты</a>
         </li>
       </ul>
     </div>
