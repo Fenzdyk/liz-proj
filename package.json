@@ -17,5 +17,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8"
+  },
+  "overrides": {
+    "vite-plugin-handlebars": {
+      "vite": "^8.0.3"
+    }
   }
 }
