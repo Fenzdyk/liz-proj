@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{title}}</title>
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    {{> header }}
+
+    <main class="flex-grow-1 py-4">
+      <div class="container">
+        <h1 class="mb-4">Добро пожаловать</h1>
+        <p class="lead text-muted mb-0">
+          Главная страница студии: навигация по разделам — в шапке, на главную можно вернуться, нажав на логотип.
+        </p>
+      </div>
+    </main>
+
+    {{> footer }}
+  </body>
+</html>

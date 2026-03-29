@@ -1,0 +1,26 @@
+// Современный способ подключения Bootstrap (Dart Sass: @import устарел)
+@use 'bootstrap/scss/bootstrap' as * with (
+  $primary: #6f42c1,
+  $font-family-sans-serif:
+    (
+      'Open Sans',
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif
+    ),
+  $headings-font-family: ('PT Serif', Georgia, 'Times New Roman', serif)
+);
+
+.header-logo {
+  display: block;
+  height: 2.5rem;
+  width: auto;
+}
+
+.product-card .card-img-top {
+  height: 12rem;
+}
